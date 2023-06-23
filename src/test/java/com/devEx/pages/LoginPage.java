@@ -5,8 +5,8 @@ import org.openqa.selenium.devtools.v85.webaudio.WebAudio;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage{
-    @FindBy (id = "#rcc-confirm-button")
-    public WebElement iUnderStandBtn;
+    @FindBy(css = "#rcc-confirm-button")
+    public WebElement iUnderstandButton;
 
     @FindBy(name = "email")
     public WebElement inputBoxEmail;
@@ -41,7 +41,7 @@ public class LoginPage extends BasePage{
 
 
     public void login(String username, String password){
-        iUnderStandBtn.click();
+        iUnderstandButton.click();
         inputBoxEmail.sendKeys(username);
         inputBoxPassword.sendKeys(password);
         loginButton.click();

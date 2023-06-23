@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         glue = "com/devEx/step_definitions",
         dryRun = false,
 
-        tags = "@rerun"
+        tags = "@wip"
 
 
 )
