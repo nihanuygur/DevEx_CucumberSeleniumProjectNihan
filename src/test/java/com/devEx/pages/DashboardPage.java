@@ -13,7 +13,7 @@ public class DashboardPage extends BasePage{
 
     @FindBy(linkText = "All Posts")
     public WebElement allPosts;
-
+git sta
     @FindBy(linkText = "My Account")
     public WebElement myAccount;
 
